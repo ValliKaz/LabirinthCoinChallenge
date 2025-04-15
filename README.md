@@ -33,8 +33,3 @@
 - **Operating System**: Windows, macOS, or Linux (for development and building).
 - **Audio Files**: Background music (e.g., `MainMenuMusic.wav`, `MainGameMusic.wav`), and sound effects (`WinSound.wav`, `LoseSound.wav`, `CoinCollect.wav`)—replace placeholders if not included.
 
-### Installation Steps
-1. **Clone or Download the Project**:
-   - If hosted on a repository (e.g., GitHub), clone it:
-     ```bash
-     git clone <repository-url>
