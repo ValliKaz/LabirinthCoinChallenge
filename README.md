@@ -33,3 +33,36 @@
 - **Operating System**: Windows, macOS, or Linux (for development and building).
 - **Audio Files**: Background music (e.g., `MainMenuMusic.wav`, `MainGameMusic.wav`), and sound effects (`WinSound.wav`, `LoseSound.wav`, `CoinCollect.wav`)—replace placeholders if not included.
 
+### Installation Steps
+1. **Download Unity**:
+   - Install Unity Hub from [Unity's official website](https://unity.com/download).
+   - Use Unity Hub to install Unity version 2022.3 LTS or later.
+
+2. **Obtain Project Files**:
+   - Download the "Labirinth Coin Challenge" project files from the provided source (e.g., GitHub repository, developer's website, or asset bundle).
+   - Extract the project folder to a local directory.
+
+3. **Import Assets**:
+   - Open Unity Hub, click "Add," and select the extracted project folder.
+   - Open the project in Unity.
+   - Import required assets from the Unity Asset Store:
+     - [EasyStart Third Person Controller](https://assetstore.unity.com/packages/tools/game-toolkits/easystart-third-person-controller-278977)
+     - [Maze Modular Puzzle Kit](https://assetstore.unity.com/packages/3d/environments/maze-modular-puzzle-kit-302221)
+     - [Customizable Skybox](https://assetstore.unity.com/packages/2d/textures-materials/sky/customizable-skybox-174576)
+     - [Flat Cube Environment](https://assetstore.unity.com/packages/3d/environments/fantasy/flat-cube-environment-195664)
+   - Follow each asset’s import instructions in Unity.
+
+4. **Add Audio Files**:
+   - Download audio files from [Freesound](https://freesound.org/) or use provided placeholders.
+   - Place audio files (`MainMenuMusic.wav`, `MainGameMusic.wav`, `WinSound.wav`, `LoseSound.wav`, `CoinCollect.wav`) in the project’s `Assets/Audio` folder.
+   - Assign these files to the corresponding Audio Source components in the `MainScene` and `GameScene` via the Unity Editor.
+
+5. **Build the Game**:
+   - In Unity, go to `File > Build Settings`.
+   - Select your target platform (e.g., Windows, macOS, Linux).
+   - Ensure `MainScene` is the first scene in the build order, followed by `GameScene` (add scenes via `Add Open Scenes` if needed).
+   - Click `Build` and choose an output folder for the executable.
+
+6. **Run the Game**:
+   - Navigate to the output folder and run the generated executable (e.g., `LabirinthCoinChallenge.exe` on Windows).
+   - Alternatively, play directly in Unity by selecting `MainScene` and clicking the Play button.
