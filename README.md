@@ -28,12 +28,16 @@
 
 ## Game Preview
 Below are GIF previews showcasing key moments and features of the LabyrinthCoinChallenge game:
+
 - **Main Menu & Instructions**: Displays the main menu with game instructions.
 ![MainMenu_Instructions](https://github.com/user-attachments/assets/c717f2fa-1ae3-47fb-b1fa-c3e03ebe1ed0)
+
 - **Required Notification & Gate Reaction**: Shows the notification system and gate interaction.
 ![RequiredNotification_GateReact-ezgif com-optimize](https://github.com/user-attachments/assets/66684498-287a-4821-b0ef-1a7df1bed5a0)
+
 - **Win Game**: Demonstrates the winning scenario.
 ![WinGame-ezgif com-optimize](https://github.com/user-attachments/assets/ff5528f0-adbc-414d-99fe-2d849410bb9d)
+
 - **Lose Game**: Illustrates the game-over scenario.
 ![LoseGame-ezgif com-optimize](https://github.com/user-attachments/assets/f1c3c17e-305b-4137-ac42-e9bf6a4b9359)
 
